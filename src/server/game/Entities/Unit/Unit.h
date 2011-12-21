@@ -2234,7 +2234,7 @@ class Unit : public WorldObject
         }
 
     protected:
-        explicit Unit ();
+        explicit Unit (bool isWorldObject);
 
         GameObject* m_temp_transport;
         UnitAI* i_AI, *i_disabledAI;
