@@ -806,6 +806,7 @@ class World
             m_WintergrapsState = state;
         }
 
+        void   ResetEventSeasonalQuests(uint16 event_id);
     protected:
         void _UpdateGameTime();
         // callback for UpdateRealmCharacters
